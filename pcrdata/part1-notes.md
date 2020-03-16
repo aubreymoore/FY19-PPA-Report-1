@@ -6,4 +6,5 @@ Results: Four of these primer pairs generated DNA fragments of the expected leng
 * Gut samples from field collected beetles were tested. Results:
 
 
+
 * Gut samples from laboratory dosed beetles were tested. Results:
