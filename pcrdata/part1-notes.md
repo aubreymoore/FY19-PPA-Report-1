@@ -1,10 +1,8 @@
 # Notes for Part 1
 
-* Five primer pairs were tested on three OrNV isolates produced in insect cell culture at AgResearch New Zealand. 
-Results: Four of these primer pairs generated DNA fragments of the expected length.
+* Five primer pairs were tested on OrNV isolates V23B and Dug42 produced in insect cell culture at AgResearch New Zealand. 
+All five of these primer pairs generated DNA fragments of the expected length.
 
-* Gut samples from field collected beetles were tested. Results:
+* Gut samples from undosed field collected beetles from LIST were tested. Beetles collected from LIST tested positive for OrNV. 
 
-
-
-* Gut samples from laboratory dosed beetles were tested. Results:
+* Gut samples from laboratory-dosed, field-collected beetles from Guam were tested. N of N beetles tested positive.
