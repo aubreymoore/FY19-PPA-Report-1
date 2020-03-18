@@ -1,0 +1,69 @@
+RID: 731KC8HZ014	
+Job Title:C-1-AdV-F1_C09.ab1				
+Program: BLASTN 
+Query: C-1-AdV-F1_C09.ab1 ID: lcl|Query_18559(dna) Length: 116
+Database: nt Nucleotide collection (nt)
+	
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+Oryctes rhinoceros nudivirus isolate Solomon Islands, complete... 198    198   99%   3e-47 97.39  MN623374.1       
+Oryctes rhinoceros virus isolate Ma07 from Malaysia, complete...  198    198   99%   3e-47 97.39  EU747721.1       
+Allomyrina virus isolate Youngdong-1 lef-8 gene, partial cds      182    182   99%   3e-42 94.78  KM233708.1       
+
+Alignments:
+>Oryctes rhinoceros nudivirus isolate Solomon Islands, complete genome
+Sequence ID: MN623374.1 Length: 125917 
+Range 1: 59121 to 59234
+
+Score:198 bits(107), Expect:3e-47, 
+Identities:112/115(97%),  Gaps:1/115(0%), Strand: Plus/Plus
+
+Query  2      AATATTTTTCTGCCCATAGGCGTTGGCGATTTTNNNAACCGACGTCGATATCGACTACGG  61
+              |||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||
+Sbjct  59121  AATATTTTTCTGCCCATAGGCGTTGGCGATTTT-CGAACCGACGTCGATATCGACTACGG  59179
+
+Query  62     TTTGTCCAGTTATCACGACCATGATTGAGTTGTTGTTGTAGATGTGTTTGATTTT  116
+              |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  59180  TTTGTCCAGTTATCACGACCATGATTGAGTTGTTGTTGTAGATGTGTTTGATTTT  59234
+
+
+
+>Oryctes rhinoceros virus isolate Ma07 from Malaysia, complete genome
+Sequence ID: EU747721.1 Length: 127615 
+Range 1: 59075 to 59188
+
+Score:198 bits(107), Expect:3e-47, 
+Identities:112/115(97%),  Gaps:1/115(0%), Strand: Plus/Plus
+
+Query  2      AATATTTTTCTGCCCATAGGCGTTGGCGATTTTNNNAACCGACGTCGATATCGACTACGG  61
+              |||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||
+Sbjct  59075  AATATTTTTCTGCCCATAGGCGTTGGCGATTTT-CGAACCGACGTCGATATCGACTACGG  59133
+
+Query  62     TTTGTCCAGTTATCACGACCATGATTGAGTTGTTGTTGTAGATGTGTTTGATTTT  116
+              |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  59134  TTTGTCCAGTTATCACGACCATGATTGAGTTGTTGTTGTAGATGTGTTTGATTTT  59188
+
+
+
+>Allomyrina virus isolate Youngdong-1 lef-8 gene, partial cds
+Sequence ID: KM233708.1 Length: 617 
+Range 1: 101 to 214
+
+Score:182 bits(98), Expect:3e-42, 
+Identities:109/115(95%),  Gaps:1/115(0%), Strand: Plus/Plus
+
+Query  2    AATATTTTTCTGCCCATAGGCGTTGGCGATTTTNNNAACCGACGTCGATATCGACTACGG  61
+            |||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||
+Sbjct  101  AATATTTTTCTGCCCATAGGCGTTGGCGATTTT-CGAACCGACGTCGATATCGACTACGG  159
+
+Query  62   TTTGTCCAGTTATCACGACCATGATTGAGTTGTTGTTGTAGATGTGTTTGATTTT  116
+            ||||||||||||||||||||||||| || ||||||||||| ||||||||||||||
+Sbjct  160  TTTGTCCAGTTATCACGACCATGATGGAATTGTTGTTGTATATGTGTTTGATTTT  214
+
+
+
+
+		
+
+
