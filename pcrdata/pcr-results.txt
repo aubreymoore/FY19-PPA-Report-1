@@ -1,0 +1,10 @@
+PCR Results
+
+Five primer pairs were tested for detection of OrNV in isolates propogated in insect cell culture from AgResearch New Zealand. All five successfully detected OrNV.
+
+PCR data indicate that OrNV is present in the Guam adult CRB population: 18% (10 of 47) gut samples dissected from field collected CRB tested positive for OrNV.
+
+PCR data indicate that OrNV is present in the adult Taiwanese CRB population:  7% (5 of 67) gut samples dissected from field collected CRB tested positive for OrNV. 
+
+PCR data indicate that virus found in Taiwanese adult beetles propogates in Guam adult CRB: 12% (5 of 41) Guam CRB dosed with Taiwanese gut preparations tested positive.   
+ 
