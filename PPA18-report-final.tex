@@ -23,8 +23,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \usepackage[table]{xcolor}
 \usepackage{csquotes}
 \usepackage{soul} % for hiliting text: \hl
-
-\usepackage[backend=biber, style=authoryear, maxbibnames=99, dashed=false]{biblatex}
+% old style is authoryear
+\usepackage[backend=biber, style=numeric, maxbibnames=99]{biblatex}
 \addbibresource{mylibrary.bib}
 \addbibresource{CRB.bib}
 
@@ -39,10 +39,9 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \author{Aubrey Moore, University of Guam}
 \maketitle
 \begin{description}	
-	\item[Report ID:] \hl{AP18PPQFO000C402-PE-SA1-20}
+	\item[Report ID:] AP18PPQFO000C402-PE-Final-20
 	\item[Report Type:] Final Report
-	\item[Reporting Period:]  \hl{SA1-20}
-	\item[Performance Period:] \hl{October 10, 2019 through March 10, 2020}
+	\item[Performance Period:] August 1, 2018 through July 31, 2020
 \end{description}
 
 \begin{footnotesize}
@@ -52,24 +51,29 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \newpage{}
 
 \begin{abstract}
-	\textbf{CRB Biological Control.} The primary objective of this project is to find an isolate of \textit{Oryctes rhinoceros} nudivirus (OrNV) which can be used as an effective biological control agent for the CRB-G biotype of coconut rhinoceros beetle (CRB). 
+	\textbf{CRB Biological Control.} The primary objective of this project was to find an isolate of \textit{Oryctes rhinoceros} nudivirus (OrNV) which can be used as an effective biological control agent for the CRB-G biotype of coconut rhinoceros beetle (CRB). 
 	
-	Laboratory tests indicate that OrNV from two sources can be considered as potential biocontrol agents CRB-G: OrNV isolate V23B maintained in insect tissue culture by AgResearch New Zealand and OrNV in bodies of CRB collected in Taiwan for the current project. Further laboratory testing of these virus samples is underway. 
+	Laboratory bioassays indicated that OrNV from two sources could be considered as potential biocontrol agents for CRB-G: OrNV isolate V23B maintained in insect tissue culture by AgResearch New Zealand and OrNV in bodies of CRB collected in Taiwan for the current project. However, these laboratory studies did not indicate a level of efficacy deemed necessary to justify field release. Search for an effective biocontrol agent for CRB-G continues. 
 	
-	PCR tests of recently collected CRB-G adults on Guam indicate presence of OrNV in this population. This virus could be from OrNV autodissemination early in the current project or from fortuitous introduction.
-	\vspace{0.25in}
+	PCR tests of CRB-G adults collected on Guam during 2019 and early 2020 indicated presence of OrNV in this population. Results from a 2020 survey which followed an experimental protocol developed to minimize false positive test results for OrNV infection indicate that the Guam CRB is free from OrNV infection.  It is likely that positive PCR tests where the result of laboratory contamination. 	
 	
-	\textbf{CRB Damage Survey.} A secondary objective of this project is to develop a CRB damage monitoring system. 
-	
-	A digital image analysis system has been developed to detect and quantify V-shaped cuts to fronds and coconut palm mortality caused by CRB. The heart of this system is an object detector, trained by deep learning technology, which locates CRB damage symptoms on frames from georeferenced roadside video surveys. This object detector can be used to automate detection, quantification and to map changes in CRB damage over time and space and can also be used fro early detection of CRB invasion.
-	
-	A working prototype of the system has been built.
-	\vspace{0.25in}
 
-	\textbf{Regional Collaboration.} Uncontrolled outbreaks of CRB-G is a major problem for Pacific islands. Outbreaks of this highly invasive biotype are damaging and killing palms in Guam, Rota, Hawaii, Palau, Papua New Guinea, and the Solomon Islands. Without effective control of these outbreaks, the problem will spread to other Pacific islands, resulting in a human tragedy when it reaches atolls were islanders still rely on coconut palm as the \textit{tree of life}. 
 	
-	Project resources, time and effort were used to facilitate communication among an \textit{ad hoc} collaboration of entomologists working on the CRB-G problem throughout the Pacific. Project staff participated in a symposium and planning meeting of the CRB-G Action Group at the XIX International 
-	Plant Protection Congress in November 2019.
+	\textbf{CRB Damage Survey.} A secondary objective of this project was to develop a CRB damage monitoring system based on automated digital image analysis of roadside video surveys.
+	
+	Georeferenced videos were recorded using a smart phone mounted on a road vehicle. An object detector was trained to locate and provide a damage index (0 to 4) for all coconut palms in the videos. A second object detector was trained to locate v-shaped cuts, which are characteristic symptoms of CRB damage.
+	
+	The first island-wide roadside video survey of CRB damage on Guam was performed in early October 2020.  This survey yielded a damage index for each of 57,666 coconut palm images detected in 174,944 video frames. Eight-four percent of these palms were damaged. An online interactive map of the survey results is publicly available. The Guam survey will be repeated bimonthly to monitor spatial-temporal changes in CRB damage in response to control activities.
+	
+	A roadside video survey of Rota Island is currently being performed to test this method for early detection of CRB damage in areas where this pest is not known to be established.
+	
+
+
+	\textbf{Regional Collaboration.} CRB-G invasions are a major problem for Pacific islands. Uncontrolled outbreaks of this highly invasive biotype are damaging and killing palms in Guam, Rota, Hawaii, Palau, Papua New Guinea, and the Solomon Islands. Without effective control of these outbreaks, the problem will spread to other Pacific islands, resulting in a human tragedy when it reaches atolls were islanders still rely on coconut palm as the \textit{tree of life}. 
+	
+	Project resources, time and effort were used to facilitate communication among an \textit{ad hoc} collaboration of entomologists working on the CRB-G problem throughout the Pacific. Project staff have been active members of the CRB-G Action Group and have participated in annual scientific meetings organized by this group.
+	
+	This project has provided online resources including a searchable, online bibliography of journal articles and technical reports about CRB and a an online interactive map for visualizing CRB invasion history.
 
 \end{abstract}
 
@@ -95,12 +99,11 @@ causing massive damage to coconut and oil palms after recent invasion of Papua N
 and the Solomon Islands. CRB-G has also invaded Oahu and Rota. Eradication
 attempts have been launched on these two islands.
 
-Additional goals for this project are to establish a CRB damage survey to evaluate efficacy of biocontrol and other tactics, and to maintain and facilitate collaboration with other Pacific island entomologists working to find solutions for CRB-G management.
+Additional goals for this project were to establish a CRB damage survey to evaluate efficacy of biocontrol and other tactics, and to maintain and facilitate collaboration with other Pacific island entomologists working to find solutions for CRB-G management.
 
 \section{Staffing}
 
-Staff for this project currently comprises of the PI, a post-doc and
-a technician. 
+Staff for this project comprised of the PI, a post-doc and a technician. 
 
 \begin{itemize}
 	
@@ -194,7 +197,7 @@ Results from PCR tests indicate:
 
 \begin{itemize}
 
-\item OrNV is present in the Guam adult CRB population: 18\% (10 of 47) gut samples dissected from field collected CRB tested positive for OrNV.
+\item OrNV is present in the Guam adult CRB population: 18\% (10 of 47) gut samples dissected from field collected CRB tested positive for OrNV. \textbf{Important Note:} A recent field survey did not detect OrNV in the Guam CRB population. Most likely, positive PCR tests were a result of laboratory contamination. See the next section.
 
 \item  OrNV is present in the adult Taiwanese CRB population:  7\% (5 of 67) gut samples dissected from field collected CRB tested positive for OrNV. 
 
@@ -204,8 +207,9 @@ Results from PCR tests indicate:
 
 \subsection{Survey to Determine Incidence of OrNV Infection in the Guam CRB Population}
 
-A survey to determine incidence of OrNV infection in the Guam CRB population was performed following positive PCR tests for OrNV infection in 18\% (10 of 47) gut samples dissected from locally collected beetles. The experimental protocol developed to minimize false positive tests is detailed in (\cite{mooreExperimentalPlanDetermining2020}). Preliminary results (\cite{graselaInvestigationDeterminePresence2020}) indicate that previous PCR tests indicating OrNV infection
-were most likely caused by laboratory contamination.
+A survey to determine incidence of OrNV infection in the Guam CRB population was performed following positive PCR tests for OrNV infection in 18\% (10 of 47) gut samples dissected from locally collected beetles. The survey followed an experimental protocol developed to minimize false positive test results for OrNV infection is detailed in (\cite{mooreExperimentalPlanDetermining2020}).  Analysis of specimens collected during the survey is not yet complete because of our courier service temporarily lost one package of insects sent to AgResearch New Zealand. To date 104 of 200 CRB specimens collected in pheromone traps on Guam have been genotyped by CO1 DNA barcoding and tested for OrNV infection using PCR. All of these specimens were identified as CRB-G and none of them tested positive for OrNV. 
+
+Preliminary survey results (\cite{graselaInvestigationDeterminePresence2020} and Marshall 2020, personal communication) indicate that previous PCR tests of field collected beetles on Guam which were positive for OrNV infection were most likely caused by laboratory contamination.
 
 \clearpage
 \subsection{CRB Rearing}
@@ -215,9 +219,7 @@ Experimental beetles were field-collected on Guam as prepupae, pupae or adults f
 
 \subsubsection{Urgent Need for a Pathogen-free CRB Laboratory Colony} 
 
-To date, CRB used in bioassays and other laboratory experiments were field collected on Guam, rather than from reared in a laboratory colony. This was done because a very high population density of rhino beetles on Guam made field collection far more efficient in terms of time and resources than laboratory rearing. However, field collected beetles are often infected with pathogens, especially the fungus, \textit{Anisopliae majus}, which was introduced on Guam as a classical biological control agent. Presence of these pathogens in experimental animals resulted in unpredictable and often high mortality rates in experimental control groups, leading to inconclusive results  such as experienced with the recent virus transmission experiment (\ref{sec: virus transmission expt}).
-
-Recent discovery of OrNV within the wild Guam rhino beetle population (\ref{sec: pcr}) now makes it mandatory to establish a sterile CRB-G laboratory colony to supply experimental animals.
+To date, CRB used in bioassays and other laboratory experiments were field collected on Guam, rather than reared in a laboratory colony. This was done because a very high population density of rhino beetles on Guam made field collection far more efficient in terms of time and resources than laboratory rearing. However, field collected beetles are often infected with pathogens, especially the fungus, \textit{Anisopliae majus}, which was introduced on Guam as a classical biological control agent. Presence of these pathogens in experimental animals resulted in unpredictable and often high mortality rates in experimental control groups, leading to inconclusive results  such as experienced with the recent virus transmission experiment (\ref{sec: virus transmission expt}).
 
 \subsubsection{Laboratory Information Management System}\label{lims}
 
@@ -233,7 +235,49 @@ We plan to import CRB from American Samoa with assistance from our collaborator,
 
 \section{CRB Damage Survey}
 
-The objective of this component of the project was to develop an automated system to evaluate CRB damage by image analysis of roadside video surveys.  We completed a \textit{proof of concept} trial in which deep learning algorithms were used to train an object detector which locates and counts dead and CRB-damaged coconut palms in video streams.  Visual results are presented in a YouTube post \parencite{moore_training_2019} and technical details are available in an Open Science Framework Project \parencite{moore_open_2019}.
+The objective of this component of the project was to develop an automated system to evaluate CRB damage by image analysis of roadside video surveys.  Survey results can be used for:
+\begin{enumerate}
+	\item Monitoring temporal-spatial changes in CRB damage to coconut palms in response to control efforts.
+	\item Early detection of CRB damage in newly invaded areas.
+\end{enumerate}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{images/Guam01-webmap}
+	\caption{Screenshot of an interactive web map of results from the Guam01 roadside video survey of CRB damage on Guam (\cite{mooreWebMapGuamCRBdamagemap2020102020}) URL: \url{https://aubreymoore.github.io/Guam-CRB-damage-map-2020-10}.}
+	\label{fig:guam01webmap}
+\end{figure}
+
+
+\subsection{Methods Development}
+
+\subsubsection{Proof of Concept}
+
+We completed a \textit{proof of concept} trial in which deep learning algorithms were used to train an object detector which locates and counts dead and CRB-damaged coconut palms in video streams.  Visual results were presented in a YouTube post \parencite{moore_training_2019} and technical details were made available in an Open Science Framework Project \parencite{moore_open_2019}.
+
+\subsubsection{Object Detectors for CRB Damage}
+
+The core of our automated image analysis software for detecting CRB damage in roadside surveys a pair of object detectors, one which locates coconut palms in video frames and assigns a damage index to each palm, and another which locates v-shaped cuts to fronds in images of detected coconut palms. We use a standardized CRB damage index which is in use elsewhere in the Pacific (\cite{jackson_rhinoceros_2019-1}, \cite{vaqalo_coconut_2017}).
+
+The object detectors we used were developed by OnePanel Inc. under a contract which specified a scope of work (\cite{onepanelinc.ScopeWorkObject2020}) submitted in response to a request for interest (RFI) (\cite{mooreRequestInterestObject2020}). The RFI contained two requirements:
+\begin{enumerate}
+	\item The system must be built using free open-source software (FOSS). Preferred compo-
+	nents include Linux, OpenCV, Python, Jupyter and CVAT.
+	\item The system should be designed so that it can be operated locally in early detection
+	mode on remote Pacific Islands which do not have access to modern telecommunica-
+	tions networks.
+\end{enumerate}
+OnePanel incorporated the object detectors into a data processing pipeline and delivered a manual for its use (\cite{onepanelinc.AIPipelineOperations2020}).
+
+\subsubsection{Survey Protocol}
+
+Georeferenced videos were recorded using a smart phone mounted on a road vehicle. The smart phone uses a pair of free apps to record roadside videos using the phone's camera and to record location using the phone's GPS receiver. An island-wide survey is completed by driving all major routes in both directions.  For set up details see \cite{aubreymooreSetAutomatedRoadside2020}.
+
+\subsection{Survey Results}
+
+The first island-wide roadside video survey of CRB damage on Guam was performed in early October 2020.  This survey yielded a damage index for each of 57,666 coconut palm images detected in 174,944 video frames. Eight-four percent of these palms were damaged. An online interactive map of the survey results is publicly available (Fig. \ref{fig:guam01webmap}) and data are publicly available in a GitHub repository (\cite{mooreGitHubRepositoryGuamCRBdamagemap2020102020}). The Guam survey will be repeated bimonthly to monitor spatial-temporal changes in CRB damage in response to control activities.
+
+A roadside video survey of Rota Island is currently being performed to test this method for early detection of CRB damage in areas where this pest is not known to be established.
 
 \section{Regional Collaboration}
 
