@@ -1,9 +1,8 @@
-\documentclass[12pt,
-letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
+\documentclass[12pt,letterpaper,english,bibliography=totocnumbered,abstract=on]{scrartcl}
 
 \usepackage{indentfirst}
 \usepackage{appendix}
-%\usepackage{fullpage}
+\usepackage{fullpage}
 %\usepackage{subfiles}
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
@@ -28,6 +27,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \addbibresource{mylibrary.bib}
 \addbibresource{CRB.bib}
 
+\usepackage{todonotes}
+
 % Prevent page breaks within paragraphs
 % https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
 \widowpenalties 1 10000
@@ -47,19 +48,21 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \end{description}
 
 \begin{footnotesize}
-\url{xxx}
+\url{https://github.com/aubreymoore/FY19-PPA-Report-1/raw/master/PPA19-report2.pdf}
 \end{footnotesize}
 
 \newpage{}
 
 \begin{abstract}
+	\todo{add new stuff}
+	
+	
 	\textbf{CRB Biological Control.} The primary objective of this project was to find an isolate of \textit{Oryctes rhinoceros} nudivirus (OrNV) which can be used as an effective biological control agent for the CRB-G biotype of coconut rhinoceros beetle (CRB). 
 	
 	Laboratory bioassays indicated that OrNV from two sources could be considered as potential biocontrol agents for CRB-G: OrNV isolate V23B maintained in insect tissue culture by AgResearch New Zealand and OrNV in bodies of CRB collected in Taiwan for the current project. However, these laboratory studies did not indicate a level of efficacy deemed necessary to justify field release. Search for an effective biocontrol agent for CRB-G continues. 
 	
 	PCR tests of CRB-G adults collected on Guam during 2019 and early 2020 indicated presence of OrNV in this population. Results from a 2020 survey which followed an experimental protocol developed to minimize false positive test results for OrNV infection indicate that the Guam CRB is free from OrNV infection.  It is likely that positive PCR tests where the result of laboratory contamination. 	
 	
-
 	
 	\textbf{CRB Damage Survey.} A secondary objective of this project was to develop a CRB damage monitoring system based on automated digital image analysis of roadside video surveys.
 	
@@ -70,18 +73,20 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 	A roadside video survey of Rota Island is currently being performed to test this method for early detection of CRB damage in areas where this pest is not known to be established.
 	
 
-
 	\textbf{Regional Collaboration.} CRB-G invasions are a major problem for Pacific islands. Uncontrolled outbreaks of this highly invasive biotype are damaging and killing palms in Guam, Rota, Hawaii, Palau, Papua New Guinea, and the Solomon Islands. Without effective control of these outbreaks, the problem will spread to other Pacific islands, resulting in a human tragedy when it reaches atolls were islanders still rely on coconut palm as the \textit{tree of life}. 
 	
 	Project resources, time and effort were used to facilitate communication among an \textit{ad hoc} collaboration of entomologists working on the CRB-G problem throughout the Pacific. Project staff have been active members of the CRB-G Action Group and have participated in annual scientific meetings organized by this group.
 	
-	This project has provided online resources including a searchable, online bibliography of journal articles and technical reports about CRB and a an online interactive map for visualizing CRB invasion history.
+	This project has provided online resources including a searchable, online bibliography of journal articles and technical reports about CRB and an online interactive map for visualizing CRB invasion history.
 
 \end{abstract}
 
 
 \newpage
 \tableofcontents{}
+
+\newpage
+\listoftodos
 
 \newpage
 
@@ -217,6 +222,9 @@ Preliminary survey results (\cite{graselaInvestigationDeterminePresence2020} and
 \subsection{CRB Rearing}
 \label{sec: rearing}
 
+\newpage
+\todo{Refer to new plans for a CRB rearing program.}
+
 Experimental beetles were field-collected on Guam as prepupae, pupae or adults from breeding sites or as adults from pheromone traps.  Each beetle was given a serial number and was reared individually in a Mason jar stored in one of three environmental chambers set for 30 degrees Celsius, 80\% relative humidity and 12 hour photoperiod. Each adult beetle was fed weekly with a slice of banana. Detailed information on the CRB rearing facility can be found in a document prepared in support of a USDA-APHIS permit to allow importation of live CRB for laboratory bioassays \parencite{moore_additional_2019}.
 
 \subsubsection{Urgent Need for a Pathogen-free CRB Laboratory Colony} 
@@ -277,11 +285,15 @@ Georeferenced videos were recorded using a smart phone mounted on a road vehicle
 
 \subsection{Survey Results}
 
+\todo{update Guam01 survey results}
+
 The first island-wide roadside video survey of CRB damage on Guam was performed in early October 2020.  This survey yielded a damage index for each of 57,666 coconut palm images detected in 174,944 video frames. Eight-four percent of these palms were damaged. An online interactive map of the survey results is publicly available (Fig. \ref{fig:guam01webmap}) and data are publicly available in a GitHub repository (\cite{mooreGitHubRepositoryGuamCRBdamagemap2020102020}). The Guam survey will be repeated bimonthly to monitor spatial-temporal changes in CRB damage in response to control activities.
 
 A roadside video survey of Rota Island is currently being performed to test this method for early detection of CRB damage in areas where this pest is not known to be established.
 
 \section{Regional Collaboration}
+
+\todo{add virtual meeting info and new online resources}
 
 An informal collaboration, the \textit{CRB-G Action Group}, has been formed among Pacific-based entomologists working on the CRB-G problem. Participants from Guam, Hawaii, Palau, Papua New Guinea, Solomon Islands, Fiji, Malaysia, Japan and New Zealand have met several times and future meetings are planned (Table \ref{tab:action-group}).  This is an \textit{ad hoc} group which has been organized by Dr. Trevor Jackson and Sean Marshall of AgResearch New Zealand. AgResearch is recognized as a global center for expertise on biological control of CRB. AgResearch scientists have worked on CRB in the south Pacific for several decades and they maintain a library of OrNV isolates in cell culture. The New Zealand government has recently committed several million dollars to aid response to CRB-G in the south Pacific islands. Although individual institutions working to find a solution to the CRB-G problem on American-affiliated islands in the northern Pacific have secured funding from multiple, short-term grants, attempts to secure funding to support a sustainable well-coordinated regional project have been unsuccessful. 
 
@@ -305,6 +317,8 @@ An informal collaboration, the \textit{CRB-G Action Group}, has been formed amon
 
 Moore and Grasela participated at the XIX International Plant Protection Congress in a symposium entitled \textit{The challenge of coconut rhinoceros beetle, Oryctes rhinoceros, to palm production and prospects for control in a changing world}. Moore made an oral presentation at this meeting \parencite{moore_status_2019}.
 They also participated in a CRB-G Action Group meeting with colleagues from throughout the Pacific and Asia.
+
+video recording \cite{mooreVideoRecordingCRBG2020}
 
 \subsection{Development of Online Resources}
 
