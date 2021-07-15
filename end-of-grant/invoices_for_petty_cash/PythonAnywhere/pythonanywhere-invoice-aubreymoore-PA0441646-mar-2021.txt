@@ -1,0 +1,54 @@
+================== INVOICE ==================
+Tax date:       9 March 2021
+Invoice number: PA0441646
+
+
+
+This invoice is for your records, payment will occur automatically, and no
+action is necessary on your part.
+
+You can cancel the monthly charges at any time by visiting your Account page on
+PythonAnywhere and clicking on the "Downgrade to a free account" button on the
+"Upgrade/Downgrade Account" tab.
+
+
+Invoice from:
+PythonAnywhere LLP
+17a Clerkenwell Road
+London EC1M 5RD
+United Kingdom
+UK VAT No.: GB 893 5643 79
+EU VAT No.: EU372015865
+
+Invoice to:
+Aubrey Moore
+Po Box 5345, Uog Station
+Mangilao
+Guam, USA 96923
+Guam
+
+
+
+Invoice for: PythonAnywhere account monthly subscription
+for account aubreymoore
+
+
+
+Total price: US$10.00
+
+
+
+Thanks for using our site!
+
+The PythonAnywhere team
+--
+PythonAnywhere: Develop and host Python from your browser
+https://www.pythonanywhere.com/
+<<<<<<:>~
+A product from PythonAnywhere LLP
+17a Clerkenwell Road, London EC1M 5RD, UK
+VAT No.: GB 893 5643 79
+Email: support@pythonanywhere.com
+Registered in England and Wales as company number OC378414.
+Registered address: 10 Bolt Court, 3rd Floor, London EC4A 3DQ, UK
+
